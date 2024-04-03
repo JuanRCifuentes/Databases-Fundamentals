@@ -8,6 +8,11 @@
     - [Services](#services)
     - [Definitions](#definitions)
 
+### Definitions
+
+- **<a name="atomic_attribute">Atomic Attibute:</a>** An attribute that cannot be divided further into **meaningful** subcomponents/sub-attributes is an Atomic attribute. Example 1: Name can be divided into First Name and Last Name. Example 2: A list of courses can be divided into each particular course.
+- **<a name="functional_dependency">Functional Dependency:</a>** Given a relation _R_ and sets of attributes _X_,_Y_ $\subseteq R$, _X_ is said to **functionally determine** _Y_ (written _X_ $\to $ _Y_) if and only if each _X_ value in _R_ is associated with precisely one _Y_ value in _R_; _R_ is then said to _satisfy_ the functional dependency _X_ $\to$ _Y_.
+- **<a name="non-prime_attribute">Non-prime attribute:</a>**  A _non-prime attribute_ of R is an attribute that does not belong to any [candidate key](https://en.wikipedia.org/wiki/Candidate_key) of R [[3](https://en.wikipedia.org/wiki/Third_normal_form#cite_note-Codd2-3)].
 
 ### Data Persistance
 
@@ -53,8 +58,3 @@ https://aukera.es/blog/bases-de-datos-relacionales-vs-no-relacionales/
 - Self-managed
 - Managed: This are services like Azure, AWS, GCP.
 
-### Definitions
-
-- **<a name="atomic_attribute">Atomic Attibute:</a>** An attribute that cannot be divided further into **meaningful** subcomponents/sub-attributes is an Atomic attribute. Example 1: Name can be divided into First Name and Last Name. Example 2: A list of courses can be divided into each particular course.
-- **<a name="functional_dependency">Functional Dependency:</a>** Given a relation _R_ and sets of attributes _X_,_Y_ $\subseteq R$, _X_ is said to **functionally determine** _Y_ (written _X_ $\to $ _Y_) if and only if each _X_ value in _R_ is associated with precisely one _Y_ value in _R_; _R_ is then said to _satisfy_ the functional dependency _X_ $\to$ _Y_.
-- **<a name="non-prime_attribute">Non-prime attribute:</a>**  A _non-prime attribute_ of R is an attribute that does not belong to any [candidate key](https://en.wikipedia.org/wiki/Candidate_key) of R [[3](https://en.wikipedia.org/wiki/Third_normal_form#cite_note-Codd2-3)].

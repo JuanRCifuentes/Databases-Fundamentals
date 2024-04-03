@@ -20,7 +20,7 @@ To normalize a database is to apply certain rules so it is easier to manage by e
 
 ### Initial Data (no normalized)
 
-![datatypes](Assets/images/initial_data.svg)
+![datatypes](./images/initial_data.svg)
 
 ### (1NF) First Normal Form
 
@@ -31,13 +31,13 @@ Conditions:
 - Every attribute is [atomic](#atomic_attribute).
 - The number of columns is the same in every case (even if an attribute has multiple values). In the example above, the attibute "course" has multiple values, thats why it is represented in two columns.
 
-![datatypes](Assets/images/1nf.svg)
+![datatypes](./images/1nf.svg)
 
 ### (2NF) Second Normal Form
 
 Each item has a unique key. A primary key autimatically satisfies 2NF.
 
-![datatypes](Assets/images/2nf.svg)
+![datatypes](./images/2nf.svg)
 
 ### (3NF) Third Normal Form [5]
 
@@ -45,10 +45,10 @@ Each item has a unique key. A primary key autimatically satisfies 2NF.
 
 - A [transitive dependency](https://en.wikipedia.org/wiki/Transitive_dependency) is a [functional dependency](https://en.wikipedia.org/wiki/Functional_dependency) in which _X_ → _Z_ (*X* determines _Z_) indirectly, by virtue of _X_ → _Y_ and _Y_ → _Z_ (where it is not the case that _Y_ → _X_).
 
-![datatypes](Assets/images/3nf.svg)
+![datatypes](./images/3nf.svg)
 
 ### (4NF) Fourth Normal Form
 
 Every non-trivial functional or [multivalued dependency](https://en.wikipedia.org/wiki/Multivalued_dependency) begins with a superkey.
 
-![datatypes](Assets/images/4nf.svg)
+![datatypes](./images/4nf.svg)
